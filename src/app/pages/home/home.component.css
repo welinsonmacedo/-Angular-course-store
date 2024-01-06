@@ -1,0 +1,18 @@
+.container__banners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+}
+.container__big-banner {
+  width: 50%;
+}
+.container__small-baner {
+  width: 50%;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}

@@ -1,0 +1,14 @@
+<div class="container__products-all">
+  <div *ngFor="let product of productsData" class="container__products">
+    <a href="">
+      <div class="img-products">
+        <img src="{{ product.imagem }}" alt="" />
+      </div>
+      <div class="description-products">
+        <h2>{{ product.nome }}</h2>
+        <h3>R$ {{ product.preco }}</h3>
+        <p>{{ product.parcelamento }}</p>
+      </div>
+    </a>
+  </div>
+</div>

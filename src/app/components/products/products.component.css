@@ -1,0 +1,29 @@
+
+.container__products-all{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.container__products{
+  width: 300px;
+  height: 370px;
+  border: 2px solid rgb(233, 230, 230);
+  margin: 20px;
+  padding: 15px;
+}
+.container__products:hover{
+  border: 2px solid rgb(199, 194, 194);
+  width: 302px;
+}
+.img-products{
+  width: 100%;
+  height: 200px;
+}
+.img-products > img{
+  width: 100%;
+  height: 100%;
+}
+.description-products{
+
+}

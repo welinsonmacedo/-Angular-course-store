@@ -1,0 +1,29 @@
+.container__small-banner{
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgb(231, 224, 224);
+  background-image: url(https://as2.ftcdn.net/v2/jpg/02/94/37/11/1000_F_294371110_kkfL65igE3zaw5oLf3cEaoZUe4bYORLy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .small-banner{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  }
+  .small-banner > button{
+    padding: 10px;
+    width: 20%;
+    background-color: greenyellow;
+    border-radius: 5px;
+    color: rgb(3, 2, 2);
+  }
+  .small-banner > button:hover{
+    width: 23%;
+    background-color: rgb(144, 165, 112);
+    color: aliceblue;
+  }
